@@ -36,6 +36,7 @@ body {
 	margin-left: 0px;
 	margin-top: 0px;
 	text-align: center;
+	cursor: pointer;
 }
 
 .button {
@@ -43,6 +44,7 @@ body {
 	font-family: 'Yanone Kaffeesatz';
 	font-size: 30px;
   color: #DB4453;
+	cursor: pointer;
   
   
 }
