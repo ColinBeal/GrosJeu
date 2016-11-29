@@ -6,7 +6,7 @@ $(".color").click(function(){
   activeColor = $(this).attr('id');
   checkColor($(this).attr('id'));
   moves++;
-  $("#moves").replaceWith("<div class='button' id='moves'>Moves:"+moves+"/"+maxMoves+"</div>");
+  $("#moves").replaceWith("<div class='button' id='moves'>Actions:"+moves+"/"+maxMoves+"</div>");
   checkWinCondition();
 }
 		});
@@ -94,7 +94,7 @@ var i = 0;
  $(".block:first-child").attr("id",$(".block:first-child").attr("id")+"-in");
   checkColor($(".block:first-child").attr("id").slice(0,$(".block:first-child").attr("id").indexOf('-')));
   
-  $("#moves").replaceWith("<div class='button' id='moves'>Moves:"+moves+"/"+maxMoves+"</div>");
+  $("#moves").replaceWith("<div class='button' id='moves'>Action:"+moves+"/"+maxMoves+"</div>");
   
 }
 removeBoard = function(){
